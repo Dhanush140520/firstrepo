@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<?php include_once "includes/headfiles.php"; ?>
+
+<body>
+    <?php include_once "includes/header.php"; ?>
+    <section class="secondary-banner industrial-loan-banner">
+        <!-- <div class="secondary-banner-wrapper ">
+            <div class="banner-content">
+                <h5>Loans</h5>
+                <h1>Short story about <span>Industrial finance</span></h1>               
+            </div>
+        </div> -->
+    </section>
+    <section class="breadcums-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="other_loan.php">Loans</a></li>
+                        <li><a href="#">Industrial Finance</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio-detail-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-9">
+                    <div class="personal-heading">
+                        <h2>Mindfin, we have designed industry-specific solutions. </h2>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="apply-pl-sec text-center">
+                        <a href="contact.php"><button class="btn btn-default mf-btn-primary" type="button">Contact us</button></a>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="row">
+                <div class="col-sm-12">
+                    <img class="img-responsive mar-b-20" src="./images/personal_loan.jpg" >
+                </div>
+            </div> -->
+            <!--  <div class="row">
+                <div class="col-sm-7">
+                    <img class="img-responsive mar-b-20" src="./images/port-detail.jpg" >
+                </div>
+                <div class="col-sm-5">
+                    <img class="img-responsive mar-b-20" src="./images/port-detail.jpg" >
+                </div>
+            </div> -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3>Every industry has its own set of unique challenges and requirements. At Mindfin, we have designed industry-specific solutions. We offer dedicated teams for each industry group and products and services tailored to meet your industry's unique needs.</h3>
+                    <p>Finance is considered as the life-force of industry. Without getting adequate finance industrial development is not at all possible. Due to the lack of adequate finance, industrial development in India could not achieve a significant position and shape. Industries require both short term, medium term and long term finance for meeting their requirements of fixed capital expenditure and also to meet their working capital needs.</p>
+                    <p>Granting loans and advances to industrial concerns and subscribing to the shares and debentures floated by them.</p>
+                </div>
+            </div>
+
+            <div class="tags-wrapper">
+                <div class="row">
+                    <div class="col-sm-3">
+
+                        <p class="sub-head-primary" style="font-size: 20px;"><strong>Industrial Finance Loan</strong></p>
+                        <p></p>
+                    </div>
+                    <div class="col-sm-9">
+                        <p>Guarantees loans raised by industrial concerns in the capital market.Granting loans in foreign currencies to specified industries,and Guarantees deferred payments in respect of imports of capital goods made by approved industrial concerns.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="tags-wrapper">
+                <div class="row">
+                    <div class="col-sm-3">
+
+                        <p class="sub-head-primary" style="font-size: 20px;"><strong>Long-Term, Medium-Term and Short-Term Finance:</strong></p>
+                        <p></p>
+                    </div>
+                    <div class="col-sm-9">
+                        <p>Long term finance for industries includes those financial resources which are advanced to the industries by the banks for a period of 3 years and above. Long term finance is quite important for the expansion and modernisation of industrial projects and also to meet its fixed capital expenditure requirement.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="tags-wrapper">
+                <div class="row">
+                    <div class="col-sm-3">
+
+                        <p class="sub-head-primary" style="font-size: 20px;"><strong>TYPES OF INDUSTRIAL FINANCE</strong></p>
+                        <p></p>
+                    </div>
+                    <div class="col-sm-9">
+                        <p>• Internal Self-Finance:
+                        <br>• Equity, Debentures and Bonds:
+                        <br>• Public Deposits:
+                        <br>• Loans from Banks:
+                        <br>• The Managing Agency System:
+                        <br>• Indigenous Bankers:
+                        <br>• Development Finance Institutions:
+                        <br>• Foreign Capita
+ </p>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="row">-->
+            <!--    <div class="col-sm-12">-->
+            <!--        <div class="port-btn-wrapper">-->
+            <!--            <button class="btn btn-default post-btn prev-btn">Previous Post</button>-->
+            <!--            <button class="btn btn-default post-btn next-btn">Next Post</button>-->
+            <!--        </div>-->
+            <!--    </div>-->
+            <!--</div>-->
+        </div>
+    </section>
+
+    <?php include_once "includes/footer.php"; ?>
+
+    <!--Modal-->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog modal-sm" style="width:350px;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Track your loan Status</h4>
+                </div>
+                <form class="form-horizontal" action="register/actions/form_action.php?f=track" method="post" onsubmit="return c_validation()">
+                    <div class="modal-body">
+                        <input type="text" class="form-control" name="track_no" placeholder="Enter your Mobile No*" required="required">
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary btn-block" name="submit" value="submit" style="margin-right:120px; border-radius:15px;">Submit</button>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+
+</body>
+
+</html>
