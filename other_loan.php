@@ -1,35 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
   <?php include_once "includes/headfiles.php"; ?>
+  <head>
+  <title>Other Loans - MindFin</title>
+  <meta name="description" content="Mindfin, deals various services such us Unsecured Business Loan, Personal Loan, Mortgage Loan, Home Loan, EDC Swiping loan,SME loan, MSME loan.. etc ">
+  <meta name="keywords" content="MIND FIN SER,mindfin,Financial Services in Bengaluru,Financial Services Companies in Bengaluru
+  Financial Services Companies,Investment Management,Mortgage loan in Bengaluru,Mortgage Calculator,Mortgage
+  Mortgage Payment Calculator,Mortgage Rates,Loans,Payday Loans,Quicken Loans,Personal Loans,Personal Loans in Bengaluru,
+  Finance,Financial Planning,what is financial services,financial products and services,finance and insurance industry,
+  fsa,Business loan, Business loan in Bengaluru,ITR, GST Returns, Mind fin ser Pvt. Ltd, Bengaluru base Finacial Services,
+  Home Loan, Home Loan in Bengaluru, EDC Swiping Machine, Swiping machine loan,Machinary loan, machinary loan in bengaluru, Finacial service companies in India,
+  Financial services in India, Financial  service in Karnataka, Business loan in Karnataka, Business Loans in India,
+  Personal loans in karnataka, Personal loans in India, Financial institutions, Financial institutions in Bengaluru,
+  Financial institutions in Karnataka, Financial institutions in India, Unsecured Business loan, Secured Loan, Unsecured loan,
+  with out any colletralls,Lending, MSME Finance, MSME Loan in Bengaluru, MEME loan in Karnataka, MSME loans in India,
+  SME Loans, SME loans in Bengaluru,SME lonas in Karnataka, SME loans in India, Trust Funding,Educational Trust funding,
+  School and Colleges Funding, Accessories funding, Infrastructure Funding ">
+  <link href="https://mindfin.co.in" hreflang="en-in" rel="alternate">
+</head>
   <body>
     <?php include_once "includes/header.php"; ?>
-    <!-- <section class="secondary-banner about-us-banner">
-        <div class="secondary-banner-wrapper ">
-            <div class="banner-content">
-                <h5>Loans</h5>
-                <h1>Short story about <span>All loans</span></h1>               
-            </div>
-        </div>
-    </section>
-    <section class="breadcums-sec">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <ul>
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="other_loans.php">All Loans</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section> -->
+    
     <section class="portfolio-sec">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
                     <ul class="portfolio-list">
                         <li class="portfolio-item">
-                            <a href="business_loan.php"><div class="img-wrapper">
+                            <a href="Business-Loan"><div class="img-wrapper">
                                 <img class="center-block img-responsive" alt="loan" src='./images/new_icons/business.gif'>
                             </div>
                             <div class="content-wrapper">
@@ -38,7 +36,7 @@
                             </div></a>
                         </li>
                         <li class="portfolio-item">
-                            <a href="mortgages.php"><div class="img-wrapper">
+                            <a href="Mortgage-Loan"><div class="img-wrapper">
                                 <img class="center-block img-responsive" alt="card" src='./images/new_icons/mortgage.gif'>
                             </div>
                             <div class="content-wrapper">
@@ -47,7 +45,7 @@
                             </div></a>
                         </li>
                         <li class="portfolio-item">
-                            <a href="edc_swaping.php"><div class="img-wrapper">
+                            <a href="EDC-Swiping-Loan"><div class="img-wrapper">
                                 <img class="center-block img-responsive" alt="car" src='./images/new_icons/edc.gif'>
                             </div>
                             <div class="content-wrapper">
@@ -56,7 +54,7 @@
                             </div></a>
                         </li>
                         <li class="portfolio-item">
-                            <a href="personal_loan.php"><div class="img-wrapper">
+                            <a href="Personal-Loan"><div class="img-wrapper">
                                 <img class="center-block img-responsive" alt="card" src='./images/new_icons/pl.gif'>
                             </div>
                             <div class="content-wrapper">
@@ -65,7 +63,7 @@
                             </div></a>
                         </li>
                         <li class="portfolio-item">
-                            <a href="workingcapital.php"><div class="img-wrapper">
+                            <a href="Working-Capital-Loan"><div class="img-wrapper">
                                 <img class="center-block img-responsive" alt="car" src='./images/new_icons/wc.gif'>
                             </div>
                             <div class="content-wrapper">
@@ -74,7 +72,7 @@
                             </div></a>
                         </li>
                         <li class="portfolio-item">
-                            <a href="home_loan.php"><div class="img-wrapper">
+                            <a href="Housing-Loan"><div class="img-wrapper">
                                 <img class="center-block img-responsive" alt="" src='./images/new_icons/home.gif'>
                             </div>
                             <div class="content-wrapper">
@@ -84,7 +82,7 @@
                         </li>
                         
                         <li class="portfolio-item">
-                            <a href="commercial_vehicle_finance.php"><div class="img-wrapper">
+                            <a href="Commercial-Vehicle-Finance-Loan"><div class="img-wrapper">
                                 <img class="center-block img-responsive" alt="car" src='./images/new_icons/truck-animation.gif'>
                             </div>
                             <div class="content-wrapper">
@@ -93,7 +91,7 @@
                             </div></a>
                         </li>
                         <li class="portfolio-item">
-                            <a href="car_loan.php"><div class="img-wrapper">
+                            <a href="Car-Loan"><div class="img-wrapper">
                                 <img class="center-block img-responsive" alt="car" src='./images/new_icons/car.gif'>
                             </div>
                             <div class="content-wrapper">
@@ -103,7 +101,7 @@
                             </div></a>
                         </li>
                         <li class="portfolio-item">
-                            <a href="auto_loan.php"><div class="img-wrapper">
+                            <a href="Auto-Loan"><div class="img-wrapper">
                                 <img class="center-block img-responsive" alt="car" src='./images/new_icons/auto.gif'>
                             </div>
                             <div class="content-wrapper">
@@ -113,7 +111,7 @@
                             </div></a>
                         </li>
                         <li class="portfolio-item">
-                            <a href="sme_loan.php"><div class="img-wrapper">
+                            <a href="SME-Loan"><div class="img-wrapper">
                                 <img class="center-block img-responsive" alt="" src='./images/new_icons/sme.gif'>
                             </div>
                             <div class="content-wrapper">
@@ -122,7 +120,7 @@
                             </div></a>
                         </li>
                         <li class="portfolio-item">
-                            <a href="industrial_finance.php"><div class="img-wrapper">
+                            <a href="Industrial-Finance-Loan"><div class="img-wrapper">
                                 <img class="center-block img-responsive" alt="card" src='./images/new_icons/if.gif'>
                             </div>
                             <div class="content-wrapper">
@@ -131,7 +129,7 @@
                             </div></a>
                         </li>
                         <li class="portfolio-item">
-                            <a href="construction_equipment_finance.php"><div class="img-wrapper">
+                            <a href="Construction-Equipment-Finance-Loan "><div class="img-wrapper">
                                 <img class="center-block img-responsive" alt="car" src='./images/new_icons/comp-white.gif'>
                             </div>
                             <div class="content-wrapper">
@@ -140,7 +138,7 @@
                             </div></a>
                         </li>
                         <li class="portfolio-item">
-                            <a href="term_loan_services.php"><div class="img-wrapper">
+                            <a href="Term-Loan-Services"><div class="img-wrapper">
                                 <img class="center-block img-responsive" alt="" src='./images/new_icons/HassleFreePaperwork.gif'>
                             </div>
                             <div class="content-wrapper">
@@ -149,7 +147,7 @@
                             </div></a>
                         </li>
                         <li class="portfolio-item">
-                            <a href="lc_bill_discounting_service.php"><div class="img-wrapper">
+                            <a href="LC-Bill-Discounting-Service"><div class="img-wrapper">
                                 <img class="center-block img-responsive" alt="card" src='./images/new_icons/invoice.gif'>
                             </div>
                             <div class="content-wrapper">
@@ -158,7 +156,7 @@
                             </div></a>
                         </li>
                         <li class="portfolio-item">
-                           <a href="project_funding.php"> <div class="img-wrapper">
+                           <a href="Project-Funding "> <div class="img-wrapper">
                                 <img class="center-block img-responsive" alt="car" src='./images/new_icons/pf.gif'>
                             </div>
                             <div class="content-wrapper">
@@ -168,7 +166,7 @@
                             </div></a>
                         </li>
                         <li class="portfolio-item">
-                            <a href="two_wheeler_loan.php"><div class="img-wrapper">
+                            <a href="Two-Wheeler-Loan"><div class="img-wrapper">
                                 <img class="center-block img-responsive" alt="" src='./images/new_icons/2.gif'>
                             </div>
                             <div class="content-wrapper">
@@ -177,7 +175,7 @@
                             </div></a>
                         </li>
                         <li class="portfolio-item">
-                            <a href="cd_loan.php"><div class="img-wrapper">
+                            <a href="Consumer-Durable-Loan"><div class="img-wrapper">
                                 <img class="center-block img-responsive" alt="card" src='./images/new_icons/cdl.gif'>
                             </div>
                             <div class="content-wrapper">
@@ -186,7 +184,7 @@
                             </div></a>
                         </li>
                         <li class="portfolio-item">
-                            <a href="school_loan.php"><div class="img-wrapper">
+                            <a href="School-Loan"><div class="img-wrapper">
                                 <img class="center-block img-responsive" alt="car" src='./images/new_icons/sl.gif'>
                             </div>
                             <div class="content-wrapper">
@@ -196,7 +194,7 @@
                             </div></a>
                         </li>
                         <li class="portfolio-item">
-                            <a href="education_loan.php"><div class="img-wrapper">
+                            <a href="Educational-Loan"><div class="img-wrapper">
                                 <img class="center-block img-responsive" alt="car" src='./images/new_icons/education-dribbble.gif'>
                             </div>
                             <div class="content-wrapper">
@@ -206,7 +204,7 @@
                             </div></a>
                         </li>
                         <li class="portfolio-item">
-                            <a href="invoice_funding.php"><div class="img-wrapper">
+                            <a href="Invoice-Funding-Loan"><div class="img-wrapper">
                                 <img class="center-block img-responsive" alt="car" src='./images/new_icons/invoice.gif'>
                             </div>
                             <div class="content-wrapper">
@@ -221,17 +219,7 @@
             </div>
         </div>
     </section>
-    <!-- <section class="get-started-sec">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 text-center">
-                    <h2 class="orange-head">Ready to get started?</h2>
-                    <p>Would recommend Money Me to a friend</p>
-                    <button class="btn btn-default mf-btn-secondary">Apply for business loan </button>
-                </div>
-            </div>
-        </div>
-    </section> -->
+    
     <?php include_once "includes/footer.php"; ?>
     
      <!--Modal-->
@@ -262,6 +250,38 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/slick.min.js"></script>
-    
+    <script type="text/javascript">
+    $(document).ready(function() {
+      //Disable full page
+      $("body").on("contextmenu", function(e) {
+        return false;
+      });
+
+      //Disable full page
+      $('body').bind('cut copy paste', function(e) {
+        e.preventDefault();
+      });
+
+      //Disable cut copy paste
+      $('body').bind('cut copy paste', function(e) {
+        e.preventDefault();
+      });
+      //Disable ctrl+shift+i, ctrl+shift+j, ctrl+u
+      document.onkeydown = function(e) {
+        if (event.keyCode == 123) {
+          return false;
+        }
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+          return false;
+        }
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+          return false;
+        }
+        if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+          return false;
+        }
+      }
+    });
+  </script>
   </body>
 </html>

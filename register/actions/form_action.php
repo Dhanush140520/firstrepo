@@ -5,38 +5,39 @@ ob_start();
 	include_once "../library/form.php";
 	include_once "function.php";
 	date_default_timezone_set('Asia/Calcutta');
-	
+	 
 	$feature=$_GET['f'];
 	
 	switch($feature){	
-	    case 'sub_vendor_login':subVendorLoginValidation(); break;
-		case 'add_customer':addCustomer(); break;		
+	    // case 'sub_vendor_login':subVendorLoginValidation(); break;
+		case 'add-customer':addCustomer(); break;		
 		case 'track':trackCustomerDetails(); break;	
 		case 'career':addcareer();break;
 		case 'contact':addcontact();break;
+		case 'callback':addcallback();break;
 	}
 	
-	function subVendorLoginValidation(){
+	// function subVendorLoginValidation(){
 		
-		$username = $_REQUEST['username'];
-		$password = sha1($_REQUEST['password']);
+	// 	$username = $_REQUEST['username'];
+	// 	$password = sha1($_REQUEST['password']);
 		
-		$subvendorLoginValidationObj = new Website();
-		$res = $subvendorLoginValidationObj->subvendorLoginValidation($username, $password);
+	// 	$subvendorLoginValidationObj = new Website();
+	// 	$res = $subvendorLoginValidationObj->subvendorLoginValidation($username, $password);
 		
-		if(count($res)!=0){
+	// 	if(count($res)!=0){
 		
-			$_SESSION['idcustomer'] = $res[0]['idcustomer'];
-			$_SESSION['name'] = $res[0]['name'];
-			$_SESSION['msg_succ'] = 'Successfully Logged In.';
-			header('Location:../subvendor_form.php');
-			exit;
-		} else {
-			$_SESSION['msg_err'] = 'Invalid User Name Or Password';
-			header('Location:../subvendor_login.php');
-			exit;
-		}		
-	}
+	// 		$_SESSION['idcustomer'] = $res[0]['idcustomer'];
+	// 		$_SESSION['name'] = $res[0]['name'];
+	// 		$_SESSION['msg_succ'] = 'Successfully Logged In.';
+	// 		header('Location:../subvendor_form.php');
+	// 		exit;
+	// 	} else {
+	// 		$_SESSION['msg_err'] = 'Invalid User Name Or Password';
+	// 		header('Location:../subvendor_login.php');
+	// 		exit;
+	// 	}		
+	// }
 	function addCustomer(){
 		$applieddate = date('Y-m-d');
 		$name = $_REQUEST['name'];
@@ -54,15 +55,14 @@ ob_start();
 		$salary = $_REQUEST['salary'];
 
 		$InsertCustomerFormObj = new Website();
-		$result = $InsertCustomerFormObj->InsertCustomerForm($name,$cemail,$pemail,$dob,$gender,$mobile,
-		$altmobile,$address,$emptype,$cname,$designation,$loanpurpose,$salary,$applieddate);
+		$result = $InsertCustomerFormObj->InsertCustomerForm($name,$cemail,$pemail,$dob,$gender,$mobile,$altmobile,$address,$emptype,$cname,$designation,$loanpurpose,$salary,$applieddate);
 		if($result!=0){
 		 
-			header("Location:../index.php?auth=success");
+			header("Location:Home?auth=success");
 			die();
 			} else {
 				  
-			header("Location:../index.php?auth=fail");
+			header("Location:Home?auth=fail");
 			die();
 		}
 				
@@ -80,14 +80,13 @@ ob_start();
 		
 		
 		$InsertwebsitcareerFormObj = new Website();
-		$result = $InsertwebsitcareerFormObj->InsertcareerForm($name,$email,$gender,$mobile,$applieddate
-	,$experience,$position,$age);
+		$result = $InsertwebsitcareerFormObj->InsertcareerForm($name,$email,$gender,$mobile,$applieddate,$experience,$position,$age);
 		if($result!=0){ 
-			header("Location:/career.php?auth=success");
+			header("Location:/Home?auth=success");
 			die();
 			} else {
 			  
-				header("Location:/career.php?auth=fail");
+				header("Location:/Home?auth=fail");
 				die();
 		}
 				
@@ -103,10 +102,27 @@ ob_start();
 		$result = $InsertContactFormObj->InsertcontactForm($name,$email,$message,$mobile
 		,$applieddate);
 		if($result!=0){  
-			header("Location:/contact.php?auth=success");
+			header("Location:/Home?auth=success");
 			die();
 			} else {   
-			header("Location:/contact.php?auth=fail");
+			header("Location:/Home?auth=fail");
+			die();
+		}
+				
+	}
+	function addcallback(){
+		$applieddate = date('Y-m-d');
+		$name = $_REQUEST['name'];
+		$email = $_REQUEST['email'];
+		$mobile = $_REQUEST['mobile'];
+		
+		$InsertCallbackFormObj = new Website();
+		$result = $InsertCallbackFormObj->InsertcallbackForm($name,$email,$mobile,$applieddate);
+		if($result!=0){  
+			header("Location:/Home?auth=success");
+			die();
+			} else {   
+			header("Location:/Home?auth=fail");
 			die();
 		}
 				
@@ -115,7 +131,7 @@ ob_start();
 		
 		$track_no = $_REQUEST['track_no'];
 	    $track_no_en = encrypt($track_no);
-		header("Location:../track/index.php?trackid=$track_no_en");
+		header("Location:/track/index.php?trackid=$track_no_en");
 		exit;
 				
 				

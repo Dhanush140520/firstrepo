@@ -194,7 +194,7 @@
                                                         <option value="">--Select Loan Purpose--</option>
                                                         <?php 
                                                             $fetchLoanPurposeObj = new Website();
-                                                            $result_lone_pur = $fetchLoanPurposeObj->fetchLoanPurpose();
+                                                            // $result_lone_pur = $fetchLoanPurposeObj->fetchLoanPurpose();
                                                             foreach($result_lone_pur as $result_lone_pur) {
                                                         ?>
                                                         <option value="<?php echo $result_lone_pur['idloantype'];?>"><?php echo $result_lone_pur['loantype'];?></option>
@@ -229,7 +229,7 @@
     												   <option disabled="" selected="">-- Loan Type -- </option>
                             								   <?php 
                                                                     $fetchLoanPurposeObj = new Website();
-                                                                    $result_lone_pur = $fetchLoanPurposeObj->fetchLoanPurpose();
+                                                                    // $result_lone_pur = $fetchLoanPurposeObj->fetchLoanPurpose();
                                                                     foreach($result_lone_pur as $result_lone_pur) {
                                                                 ?>
                                                             <option value="<?php echo $result_lone_pur['idloantype'];?>"><?php echo $result_lone_pur['loantype'];?></option>
@@ -301,18 +301,37 @@
 	<script src="assets/js/jquery.validate.min.js" type="text/javascript"></script>
 <script src="dist/emotion-ratings.js"></script>
 
-<script>  
-	$(document).ready(function(){  
-		 var i=1;  
-		 $('#add').click(function(){  
-			  i++;  
-			  $('#dynamic_field').append('<tr id="row'+i+'"><td> <select name="idloantype[]" class="form-control"><option disabled="" selected="">- Loan Type -</option><?php $fetchLoanPurposeObj = new Website();$result_lone_pur = $fetchLoanPurposeObj->fetchLoanPurpose();foreach($result_lone_pur as $result_lone_pur) { ?><option value="<?php echo $result_lone_pur['idloantype'];?>"><?php echo $result_lone_pur['loantype'];?></option><?php } ?></select></td><td><input type="text" name="loanamount[]" placeholder="Loan Amount" class="form-control name_list" /></td>	<td><select name="idbank[]" class="form-control"><option disabled="" selected="">-- Bank Name --</option><?php $fetchBankInfoObj = new Website();$result_bankname = $fetchBankInfoObj->fetchBankInfo();foreach($result_bankname as $result_bankname) { ?><option value="<?php echo $result_bankname['idbank'];?>"><?php echo $result_bankname['bankname'];?></option><?php } ?></select></td><td><button type="button" name="remove" id="'+i+'" class="btn btn-danger btn_remove">X</button></td></tr>');  
-		 });  
-		 $(document).on('click', '.btn_remove', function(){  
-			  var button_id = $(this).attr("id");   
-			  $('#row'+button_id+'').remove();  
-		 });   
-	});  
-	</script>
+<script type="text/javascript">
+    $(document).ready(function() {
+      //Disable full page
+      $("body").on("contextmenu", function(e) {
+        return false;
+      });
 
+      //Disable full page
+      $('body').bind('cut copy paste', function(e) {
+        e.preventDefault();
+      });
+
+      //Disable cut copy paste
+      $('body').bind('cut copy paste', function(e) {
+        e.preventDefault();
+      });
+      //Disable ctrl+shift+i, ctrl+shift+j, ctrl+u
+      document.onkeydown = function(e) {
+        if (event.keyCode == 123) {
+          return false;
+        }
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+          return false;
+        }
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+          return false;
+        }
+        if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+          return false;
+        }
+      }
+    });
+  </script>
 </html>

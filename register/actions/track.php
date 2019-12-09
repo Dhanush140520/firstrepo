@@ -29,7 +29,7 @@ ob_start();
 		
 		$InsertCustomerFormObj = new Website();
 		$result = $InsertCustomerFormObj->InsertCustomerForm($name,$email,$dob,$gender,$mobile,$altmobile,$address,$emptype,$cname,$designation,$loanpurpose,$salary,$status,$applieddate);
-		$idcustomer	 = mysql_insert_id();
+		// $idcustomer	 = mysql_insert_id();
 		
 		$phone_no="";
 // 		$z = count($_REQUEST['idloantype']);

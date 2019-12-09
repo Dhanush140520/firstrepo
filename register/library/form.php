@@ -18,22 +18,22 @@
 			return $list;
 		}
 		
-		function fetchLoanPurpose(){
-			$con = mysqli_connect('localhost', 'root', 'mindfin@098','mindfin');
-			$list = array();
-			echo $sql="SELECT * FROM loantype where status = 'active'";
+		// function fetchLoanPurpose(){
+		// 	$con = mysqli_connect('localhost', 'root', 'mindfin@098','mindfin');
+		// 	$list = array();
+		// 	echo $sql="SELECT * FROM loantype where status = 'active'";
 			
-			$result=mysqli_query($con,$sql);
-			if($result){
-				while($row = mysql_fetch_assoc($result)){
-					array_push($list, $row);
-					}
-				} else {
-				$list = 0;
-			}
-			mysqli_close($con);
-			return $list;
-		}
+		// 	$result=mysqli_query($con,$sql);
+		// 	if($result){
+		// 		while($row = mysql_fetch_assoc($result)){
+		// 			array_push($list, $row);
+		// 			}
+		// 		} else {
+		// 		$list = 0;
+		// 	}
+		// 	mysqli_close($con);
+		// 	return $list;
+		// }
 		
 		function fetchBankInfo(){
 			$con = mysqli_connect('localhost', 'root', 'mindfin@098','mindfin');
@@ -69,10 +69,7 @@
 			return $list;
 		}
 		
-		function InsertCustomerForm($name,$cemail,
-		$pemail,$dob,$gender,$mobile,$altmobile,$address,
-		$emptype,$cname,$designation,$loanpurpose,$salary,
-		$applieddate){
+		function InsertCustomerForm($name,$cemail,$pemail,$dob,$gender,$mobile,$altmobile,$address,$emptype,$cname,$designation,$loanpurpose,$salary,$applieddate){
 			$con = mysqli_connect('localhost', 'root', 'mindfin@098','mindfin');
 			$list = array();
 		    $sql="INSERT INTO `customer`(`name`, `mobile`,`email`, `dob`, `altmobile`, `address`, `gender`, `emptype`, `cname`, `designation`, `applytype`, `salary`, `status`,`displaystatus`,`applieddate`,`source`,`cemail`)
@@ -87,8 +84,7 @@
 			return $result;
 			
 		}
-		function InsertcareerForm($name,$email,$gender,$mobile,$applieddate
-		,$experience,$position,$age){
+		function InsertcareerForm($name,$email,$gender,$mobile,$applieddate,$experience,$position,$age){
 			$con = mysqli_connect('localhost', 'root', 'mindfin@098','mindfin');
 			$list = array();
 		    $sql="INSERT INTO `website`(`name`, `mobileno`,`email`, `age`, `experience`, `position`, `gender`, `formtype`, `applieddate`)
@@ -119,7 +115,21 @@
 			return $result;
 			
 		}
-		
+		function InsertcallbackForm($name,$email,$mobile,$applieddate){
+			$con = mysqli_connect('localhost', 'root', 'mindfin@098','mindfin');
+			$list = array();
+		    $sql="INSERT INTO `website`(`name`, `mobileno`,`email`,`formtype`,`applieddate`)
+					VALUES('$name', '$mobile','$email', 'Callbackform', '$applieddate')";
+			$result=mysqli_query($con,$sql);
+			if($result){
+				$list = 1;
+				} else {
+				$list = 0;
+			}
+			mysqli_close($con);
+			return $result;
+			
+		}
 		function InsertPreviousBankDetails($idcustomer,$idloantype,$loanamount,$idbank){
 			$con = mysqli_connect('localhost', 'root', 'mindfin@098','mindfin');
 			$list = array();
@@ -235,24 +245,24 @@
 			return $list;
 		}
 		
-		function subvendorLoginValidation($username, $password){
-			$con = mysqli_connect('localhost', 'root', 'mindfin@098','mindfin');
-			$list = array();
-			$sql="SELECT *
-			FROM `customer`
-			WHERE (`email`='$username')
-			AND `password`='$password'";
-			$result=mysqli_query($con,$sql);
-			if($result){
-				while($row = mysql_fetch_assoc($result)){
-					array_push($list, $row);
-					}
-				} else {
-				$list = 0;
-			}
-			mysqli_close($con);
-			return $list;
-		}
+		// function subvendorLoginValidation($username, $password){
+		// 	$con = mysqli_connect('localhost', 'root', 'mindfin@098','mindfin');
+		// 	$list = array();
+		// 	$sql="SELECT *
+		// 	FROM `customer`
+		// 	WHERE (`email`='$username')
+		// 	AND `password`='$password'";
+		// 	$result=mysqli_query($con,$sql);
+		// 	if($result){
+		// 		while($row = mysql_fetch_assoc($result)){
+		// 			array_push($list, $row);
+		// 			}
+		// 		} else {
+		// 		$list = 0;
+		// 	}
+		// 	mysqli_close($con);
+		// 	return $list;
+		// }
 		
 	}
 ?>

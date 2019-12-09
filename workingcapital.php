@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <?php include_once "includes/headfiles.php"; ?>
+  <head>
+  <title>Working Capital. - MindFin</title>
+  <meta name="description" content="Capital of a business which is used in its day-to-day trading operations, calculated as the current assets minus the current liabilities.">
+  <meta name="keywords" content="MIND FIN SER,mindfin,Financial Services in Bengaluru,Financial Services Companies in Bengaluru Financial Services Companies,Unsecured Business loan, Secured Loan, Unsecured loan,with out any colletralls,Financial institutions, Financial institutions in Bengaluru,Financial institutions in Karnataka, Financial institutions in India,working capital, working capital loans in bengalore,">
+</head>
   <body>
     <?php include_once "includes/header.php"; ?>
     <section class="secondary-banner working-capital-banner">
@@ -16,9 +21,9 @@
             <div class="row">
                 <div class="col-sm-12">
                     <ul>
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="other_loan.php">Loans</a></li>
-                        <li><a href="workingcapital.php">Working capital Loans</a></li>
+                        <li><a href="Home">Home</a></li>
+                        <li><a href="Other-Loans">Loans</a></li>
+                        <li><a href="#">Working capital Loans</a></li>
                     </ul>
                 </div>
             </div>
@@ -152,6 +157,38 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/slick.min.js"></script>
-    
+    <script type="text/javascript">
+    $(document).ready(function() {
+      //Disable full page
+      $("body").on("contextmenu", function(e) {
+        return false;
+      });
+
+      //Disable full page
+      $('body').bind('cut copy paste', function(e) {
+        e.preventDefault();
+      });
+
+      //Disable cut copy paste
+      $('body').bind('cut copy paste', function(e) {
+        e.preventDefault();
+      });
+      //Disable ctrl+shift+i, ctrl+shift+j, ctrl+u
+      document.onkeydown = function(e) {
+        if (event.keyCode == 123) {
+          return false;
+        }
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+          return false;
+        }
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+          return false;
+        }
+        if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+          return false;
+        }
+      }
+    });
+  </script>
   </body>
 </html>

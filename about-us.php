@@ -1,29 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php include_once "includes/headfiles.php"; ?>
-
+<head>
+  <title>About Us - Mind Fin Ser Pvt. Ltd. </title>
+  <meta name="description" content="Mindfin, was established in 15+ years ago with a oncept of bringing all financial institutions and their services under one umbrella, We came into existence to help the customers to choose the most suitable financial packages for them. Our main objective is to fulfill the financial needs of the customers through smooth bank policies.">
+  <meta name="keywords" content="MIND FIN SER,mindfin,Financial Services in Bengaluru,Financial Services Companies in Bengaluru
+  Financial Services Companies,Investment Management,Mortgage loan in Bengaluru,Mortgage Calculator,Mortgage
+  Mortgage Payment Calculator,Mortgage Rates,Loans,Payday Loans,Quicken Loans,Personal Loans,Personal Loans in Bengaluru,
+  Finance,Financial Planning,what is financial services,financial products and services,finance and insurance industry,
+  fsa,Business loan, Business loan in Bengaluru,ITR, GST Returns, Mind fin ser Pvt. Ltd, Bengaluru base Finacial Services,
+  Home Loan, Home Loan in Bengaluru, EDC Swiping Machine, Swiping machine loan,Machinary loan, machinary loan in bengaluru, Finacial service companies in India,
+  Financial services in India, Financial  service in Karnataka, Business loan in Karnataka, Business Loans in India,
+  Personal loans in karnataka, Personal loans in India, Financial institutions, Financial institutions in Bengaluru,
+  Financial institutions in Karnataka, Financial institutions in India, Unsecured Business loan, Secured Loan, Unsecured loan,
+  with out any colletralls,Lending, MSME Finance, MSME Loan in Bengaluru, MEME loan in Karnataka, MSME loans in India,
+  SME Loans, SME loans in Bengaluru,SME lonas in Karnataka, SME loans in India, Trust Funding,Educational Trust funding,
+  School and Colleges Funding, Accessories funding, Infrastructure Funding ">
+  <link href="https://mindfin.co.in/About-Mindfin" hreflang="en-in" rel="alternate">
+</head>
 <body>
   <?php include_once "includes/header.php"; ?>
-  <!-- <section class="secondary-banner about-us-banner">
-    <div class="secondary-banner-wrapper "> -->
-      <!-- <div class="banner-content">
-        <h5>About Us</h5>
-        <h1>Short story about <span>loans</span></h1>
-      </div> -->
-    <!-- </div>
-  </section>
-  <section class="breadcums-sec">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <ul>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="about-us.php">About us</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section> -->
+ 
   <section >
     <div class="container">
       <div class="row">
@@ -67,11 +64,7 @@
                 <img class="awards-img" src="./images/bank/6.png">
               </div>
             </li>
-            <!-- <li>
-              <div class="awards-content">
-                <img class="awards-img" src="./images/bank/7.png">
-              </div>
-            </li> -->
+           
             <li>
               <div class="awards-content">
                 <img class="awards-img" src="./images/bank/8.png">
@@ -232,55 +225,7 @@
 
     </div>
   </section>
-  <!-- <section class="personal-loan-sec ">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-7">
-          <div class="personal-heading">
-            <h2><span>You can achieve your financial goals.</span> We can help.
-              Pay off your loan with fixed 3 or 5-year* terms</h2>
-          </div>
-        </div>
-        <div class="col-sm-5">
-          <div class="apply-pl-sec text-center">
-            <a href="services.php"><button class="btn btn-default mf-btn-primary" type="button">ALL Personal Loans</button></a>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="pr-features-list">
-            <ul>
-              <li>
-                <div class="item">
-                  <img class="img-responsive center-block" src="./images/new_icons/personal_loan.png" />
-                  <h3>Personal Loan @10.75%</h3>
-                  <p>Unlimited Rewards. Enjoy Attractive Deals & Discounts.
-                    Flexible Payment Options. Global Usage Privilege</p>
-                </div>
-              </li>
-              <li>
-                <div class="item">
-                  <img class="img-responsive center-block" src="./images/old img/money-bag.png" />
-                  <h3>Repayable in 12 to 60 EMIs</h3>
-                  <p>Globally Accepted. Lowest Interest @ 20% Annually. Worldwide Cash Advance
-                    Facility.</p>
-                </div>
-              </li>
-              <li>
-                <div class="item">
-                  <img class="img-responsive center-block" src="./images/old img/money-bag2.png" />
-                  <h3>Interest Rate 12%</h3>
-                  <p>Get Credit Card Within 24 hours ! Up to 98% Cash Withdrawal Facilities by
-                    Card Cheque</p>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
+  
   
   <section class="prev-records">
     <div class="blue-container"></div>
@@ -312,7 +257,7 @@
               </div>
             </li>
           </ul>
-          <p>MIND FINSER Pvt Ltd was incorporated in the year 2006 with a concept of bringing all financial institutions and their services under one umbrella,
+          <p>Mind Fin Ser was established 15 years ago with a concept of bringing all financial institutions and their services under one umbrella,
             We came into existence to help the customers to choose the most suitable financial packages for them.
             Our main objective is to fulfill the financial needs of the customers through smooth bank policies.</p>
           <p>We are acknowledged as a prominent service provider in this business domain. We provide our services for getting Unsecured Business Loan,
@@ -358,17 +303,7 @@
 
           </div>
         </li>
-        <!-- <li class="purpose-sec">
-           <div class="values-list-wrapper">                 
-             <div class="value-item-wrapper">
-                 <h3 class="sub-head-secondary">OUR Purpose</h3>
-                  <p>We are acknowledge as a prominent service provider in this business domain. We provide our services for getting Unsecured Business Loan, SME Loan, MSME loan, Home Loan, Loan Against Property, Commercial Property Construction Loans, Construction Finance,  School and Colleges Funding , LC Bill Discounting Service, Project Finance Services</p>
-             </div>           
-             <div class="icon-wrapper">
-                 <img class="img-responsive center-block" src="./images/auto-loan.png">
-             </div>                
-           </div>
-        </li> -->
+        
       </ul>
     </div>
   </section>
@@ -519,17 +454,7 @@
 
     </div>
   </section>
-  <!-- <section class="get-started-sec">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 text-center">
-          <h2 class="orange-head">Ready to get started?</h2>
-          <p>Would recommend Money Me to a friend</p>
-          <a href="register"><button class="btn btn-default mf-btn-secondary">Apply for business loan </button></a>
-        </div>
-      </div>
-    </div>
-  </section> -->
+ 
   <?php include_once "includes/footer.php"; ?>
   <!--Modal-->
   <div class="modal fade" id="myModal" role="dialog">
@@ -593,12 +518,7 @@
         }],
       });
     });
-    // $('.get-started-sec').fireworks({
-    //   sound:false,// sound effect
-    //   opacity: 0.1,
-    //   width:'100px',
-    //   height:'100px'
-    //   });
+    
 
     lightbox.option({
       'resizeDuration': 200,
@@ -608,6 +528,39 @@
 
 
     
+  </script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      //Disable full page
+      $("body").on("contextmenu", function(e) {
+        return false;
+      });
+
+      //Disable full page
+      $('body').bind('cut copy paste', function(e) {
+        e.preventDefault();
+      });
+
+      //Disable cut copy paste
+      $('body').bind('cut copy paste', function(e) {
+        e.preventDefault();
+      });
+      //Disable ctrl+shift+i, ctrl+shift+j, ctrl+u
+      document.onkeydown = function(e) {
+        if (event.keyCode == 123) {
+          return false;
+        }
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+          return false;
+        }
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+          return false;
+        }
+        if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+          return false;
+        }
+      }
+    });
   </script>
 </body>
 
