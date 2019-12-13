@@ -4,7 +4,7 @@ ob_start();
 	include_once "../library/form.php";
 	date_default_timezone_set('Asia/Calcutta');
 	
-	$feature=$_GET['f'];
+	$feature=$_GET['g'];
 	
 	switch($feature){	
 		case 'add_customer':addCustomer(); break;		
@@ -28,7 +28,7 @@ ob_start();
 		
 		
 		$InsertCustomerFormObj = new Website();
-		$result = $InsertCustomerFormObj->InsertCustomerForm($name,$email,$dob,$gender,$mobile,$altmobile,$address,$emptype,$cname,$designation,$loanpurpose,$salary,$status,$applieddate);
+		// $result = $InsertCustomerFormObj->InsertCustomerForm($name,$email,$dob,$gender,$mobile,$altmobile,$address,$emptype,$cname,$designation,$loanpurpose,$salary,$status,$applieddate);
 		// $idcustomer	 = mysql_insert_id();
 		
 		$phone_no="";

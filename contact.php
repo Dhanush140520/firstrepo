@@ -6,7 +6,7 @@
   <title>Contact - Mindfin</title>
   <meta name="description" content="Mindfin,  Contact us to learn more. If you're in need of financial Obstacles in Business or Personal, please reach us No. 10, 1st Floor, Krishna Block,1st Main Road,Seshadripuram,Bangalore- 560020">
   <meta name="keywords" content="MIND FIN SER,mindfin,Financial Services in Bengaluru,Financial Services Companies in Bengaluru Financial Services Companies,Unsecured Business loan, Secured Loan, Unsecured loan,with out any colletralls,Financial institutions, Financial institutions in Bengaluru,Financial institutions in Karnataka, Financial institutions in India">
-  <link href="https://mindfin.co.in/Contact-Mindfin" hreflang="en-in" rel="alternate">
+  <link href="https://mindfin.co.in/contact.php" hreflang="en-in" rel="alternate">
 </head>
 <?php include_once "includes/header.php"; ?>
 
@@ -27,7 +27,7 @@
       <div class="row">
         <div class="col-sm-12">
           <ul>
-            <li><a href="Home">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a href="#">Contact us</a></li>
           </ul>
         </div>

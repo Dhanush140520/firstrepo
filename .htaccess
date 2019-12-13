@@ -1,8 +1,8 @@
 RewriteEngine on  
-  
+   
 RewriteRule ^Home  index.php [NC,L]
-RewriteRule ^About-Mindfin  about-us.php [NC,L]
-RewriteRule ^Contact-Mindfin  contact.php [NC,L] 
+RewriteRule ^about-us.php about-us.php [NC,L]
+RewriteRule ^contact.php  contact.php [NC,L] 
 RewriteRule ^Career  career.php [NC,L] 
 RewriteRule ^Other-Loans  other_loan.php [NC,L] 
 RewriteRule ^Privacy-and-Policy  Privacy_Policy.php [NC,L] 

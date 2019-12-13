@@ -17,13 +17,13 @@
                  <h4 class="footer-menu-head">About</h4>
                  <ul class="footer-links-list">
                    <li>
-                     <a href="About-Mindfin" class="footer-link" title="menu">About-us</a>
+                     <a href="about-us.php" class="footer-link" title="menu">About-us</a>
                    </li>
                    <li>
-                     <a href="Services" class="footer-link" title="services">Services</a>
+                     <a href="service.php" class="footer-link" title="services">Services</a>
                    </li>
                    <li>
-                     <a href="Career" class="footer-link" title="Contact">Career</a>
+                     <a href="career.php" class="footer-link" title="Contact">Career</a>
                    </li>
                  </ul>
                </div>
@@ -33,19 +33,19 @@
                  <h4 class="footer-menu-head">Services</h4>
                  <ul class="footer-links">
                    <li>
-                     <a href="Business-Loan" class="footer-link" title="Business Loan">Business Loan</a>
+                     <a href="business_loan.php" class="footer-link" title="Business Loan">Business Loan</a>
                    </li>
                    <li>
-                     <a href="Mortgage-Loan" class="footer-link" title="Mortgages Loan">Mortgage Loan</a>
+                     <a href="mortgage.php" class="footer-link" title="Mortgages Loan">Mortgage Loan</a>
                    </li>
                    <li>
-                     <a href="EDC-Swiping-Loan" class="footer-link" title="EDC Swaping">EDC Swiping</a>
+                     <a href="edc_swiping.php" class="footer-link" title="EDC Swaping">EDC Swiping</a>
                    </li>
                    <li>
-                     <a href="Personal-Loan" class="footer-link" title="Personal Loan">Personal Loan</a>
+                     <a href="personal-Loan.php" class="footer-link" title="Personal Loan">Personal Loan</a>
                    </li>
                    <li>
-                     <a href="Other-Loans" class="footer-link" title="Others Loan">Others Loan</a>
+                     <a href="other-loan.php" class="footer-link" title="Others Loan">Others Loan</a>
                    </li>
                  </ul>
                </div>
@@ -55,14 +55,14 @@
                  <h4 class="footer-menu-head">Need help?</h4>
                  <ul class="footer-links">
                    <li>
-                     <a href="How-It-Works" class="footer-link" title="menu">How it works</a>
+                     <a href="how-it-works.php" class="footer-link" title="menu">How it works</a>
                    </li>
 
                    <li>
-                     <a href="Contact-Mindfin" class="footer-link" title="Contact us">Contact us</a>
+                     <a href="contact.php" class="footer-link" title="Contact us">Contact us</a>
                    </li>
                    <li>
-                     <a href="Frequently-Asked-Questions" class="footer-link" title="FAQ">FAQ'S</a>
+                     <a href="faq.php" class="footer-link" title="FAQ">FAQ'S</a>
                    </li>
 
                  </ul>
@@ -146,16 +146,16 @@
          </div>
          <div class="col-sm-6" align="center">
            <p>© 2004 - <script type="text/javascript">
-  document.write(new Date().getFullYear());
-</script> Mind Fin Ser. All rights reserved.</p>
+               document.write(new Date().getFullYear());
+             </script> Mind Fin Ser. All rights reserved.</p>
          </div>
          <div class="col-sm-3 ">
            <ul class="text-center terms-list ">
              <li>
-               <a href="Privacy-and-Policy" class="footer-link" title="Privacy policy">Privacy Policy</a>
+               <a href="Privacy_Policy.php" class="footer-link" title="Privacy policy">Privacy Policy</a>
              </li>
              <li>
-               <a href="Terms-and-Conditions" class="footer-link" title="Terms & Conditions">Terms & Conditions</a>
+               <a href="Terms_and_Conditions.php" class="footer-link" title="Terms & Conditions">Terms & Conditions</a>
              </li>
              </p>
          </div>

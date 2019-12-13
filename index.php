@@ -6,7 +6,7 @@
   <title>Mind Fin Ser Pvt.Ltd. Offers Unsecured Business loan with attractive interest rate -MindFin</title>
   <meta name="description" content="MIND FIN was established in 15+ years ago with a oncept of bringing all financial institutions and their services under one umbrella, We came into existence to help the customers to choose the most suitable financial packages for them. Our main objective is to fulfill the financial needs of the customers through smooth bank policies.">
   <meta name="keywords" content="MIND FIN SER,mindfin,Financial Services in Bengaluru,Financial Services Companies in Bengaluru Financial Services Companies,Unsecured Business loan, Secured Loan, Unsecured loan,with out any colletralls,Financial institutions, Financial institutions in Bengaluru,Financial institutions in Karnataka, Financial institutions in India">
-  <link href="https://mindfin.co.in/Home" hreflang="en-in" rel="alternate">
+  <link href="https://mindfin.co.in/index.php" hreflang="en-in" rel="alternate">
 </head>
 
 
@@ -388,10 +388,10 @@
 
       $("#owl-demo").owlCarousel({
 
-        navigation: false, 
+        navigation: false,
         slideSpeed: 300,
         paginationSpeed: 400,
-        dot:false,
+        dot: false,
         autoplay: true,
         autoplayTimeout: 3000,
         autoplayHoverPause: false,
@@ -415,6 +415,39 @@
       height: auto;
     }
   </style>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      //Disable full page
+      $("body").on("contextmenu", function(e) {
+        return false;
+      });
+
+      //Disable full page
+      $('body').bind('cut copy paste', function(e) {
+        e.preventDefault();
+      });
+
+      //Disable cut copy paste
+      $('body').bind('cut copy paste', function(e) {
+        e.preventDefault();
+      });
+      //Disable ctrl+shift+i, ctrl+shift+j, ctrl+u
+      document.onkeydown = function(e) {
+        if (event.keyCode == 123) {
+          return false;
+        }
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+          return false;
+        }
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+          return false;
+        }
+        if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+          return false;
+        }
+      }
+    });
+  </script>
 </body>
 
 </html>

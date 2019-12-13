@@ -21,8 +21,8 @@
             <div class="row">
                 <div class="col-sm-12">
                     <ul>
-                        <li><a href="Home">Home</a></li>
-                        <li><a href="Other-Loans">Loans</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="other_loan.php">Loans</a></li>
                         <li><a href="#">Working capital Loans</a></li>
                     </ul>
                 </div>

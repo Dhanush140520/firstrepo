@@ -32,10 +32,10 @@
             <div class="row">
                 <div class="col-sm-12">
                     <ul>
-                        <li><a href="Home">Home</a></li>
+                        <li><a href="index.php">Home</a></li>
                         <!-- <li><a href="#">Blogs</a></li>
                         <li><a href="#">Blog detail</a></li> -->
-						<li><a href="Contact-Mindfin">Contact</a></li>
+						<li><a href="contact.php">Contact</a></li>
 						<li><a href="#">FAQs</a></li>
                     </ul>
                 </div>

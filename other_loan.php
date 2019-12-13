@@ -27,7 +27,7 @@
                 <div class="col-sm-12">
                     <ul class="portfolio-list">
                         <li class="portfolio-item">
-                            <a href="Business-Loan"><div class="img-wrapper">
+                            <a href="business_loan.php"><div class="img-wrapper">
                                 <img class="center-block img-responsive" alt="loan" src='./images/new_icons/business.gif'>
                             </div>
                             <div class="content-wrapper">
@@ -36,7 +36,7 @@
                             </div></a>
                         </li>
                         <li class="portfolio-item">
-                            <a href="Mortgage-Loan"><div class="img-wrapper">
+                            <a href="mortgages.php"><div class="img-wrapper">
                                 <img class="center-block img-responsive" alt="card" src='./images/new_icons/mortgage.gif'>
                             </div>
                             <div class="content-wrapper">
@@ -45,7 +45,7 @@
                             </div></a>
                         </li>
                         <li class="portfolio-item">
-                            <a href="EDC-Swiping-Loan"><div class="img-wrapper">
+                            <a href="edc_swiping.php"><div class="img-wrapper">
                                 <img class="center-block img-responsive" alt="car" src='./images/new_icons/edc.gif'>
                             </div>
                             <div class="content-wrapper">
@@ -54,7 +54,7 @@
                             </div></a>
                         </li>
                         <li class="portfolio-item">
-                            <a href="Personal-Loan"><div class="img-wrapper">
+                            <a href="personal_loan.php"><div class="img-wrapper">
                                 <img class="center-block img-responsive" alt="card" src='./images/new_icons/pl.gif'>
                             </div>
                             <div class="content-wrapper">
@@ -63,7 +63,7 @@
                             </div></a>
                         </li>
                         <li class="portfolio-item">
-                            <a href="Working-Capital-Loan"><div class="img-wrapper">
+                            <a href="workingcapital.php"><div class="img-wrapper">
                                 <img class="center-block img-responsive" alt="car" src='./images/new_icons/wc.gif'>
                             </div>
                             <div class="content-wrapper">
@@ -72,7 +72,7 @@
                             </div></a>
                         </li>
                         <li class="portfolio-item">
-                            <a href="Housing-Loan"><div class="img-wrapper">
+                            <a href="housing_loan.php"><div class="img-wrapper">
                                 <img class="center-block img-responsive" alt="" src='./images/new_icons/home.gif'>
                             </div>
                             <div class="content-wrapper">
@@ -82,7 +82,7 @@
                         </li>
                         
                         <li class="portfolio-item">
-                            <a href="Commercial-Vehicle-Finance-Loan"><div class="img-wrapper">
+                            <a href="commercial_vehicle_finance.php"><div class="img-wrapper">
                                 <img class="center-block img-responsive" alt="car" src='./images/new_icons/truck-animation.gif'>
                             </div>
                             <div class="content-wrapper">
@@ -91,7 +91,7 @@
                             </div></a>
                         </li>
                         <li class="portfolio-item">
-                            <a href="Car-Loan"><div class="img-wrapper">
+                            <a href="car_loan.php"><div class="img-wrapper">
                                 <img class="center-block img-responsive" alt="car" src='./images/new_icons/car.gif'>
                             </div>
                             <div class="content-wrapper">
@@ -101,7 +101,7 @@
                             </div></a>
                         </li>
                         <li class="portfolio-item">
-                            <a href="Auto-Loan"><div class="img-wrapper">
+                            <a href="auto-loan.php"><div class="img-wrapper">
                                 <img class="center-block img-responsive" alt="car" src='./images/new_icons/auto.gif'>
                             </div>
                             <div class="content-wrapper">
@@ -111,7 +111,7 @@
                             </div></a>
                         </li>
                         <li class="portfolio-item">
-                            <a href="SME-Loan"><div class="img-wrapper">
+                            <a href="sme_loan.php"><div class="img-wrapper">
                                 <img class="center-block img-responsive" alt="" src='./images/new_icons/sme.gif'>
                             </div>
                             <div class="content-wrapper">
@@ -120,7 +120,7 @@
                             </div></a>
                         </li>
                         <li class="portfolio-item">
-                            <a href="Industrial-Finance-Loan"><div class="img-wrapper">
+                            <a href="industrial_finance.php"><div class="img-wrapper">
                                 <img class="center-block img-responsive" alt="card" src='./images/new_icons/if.gif'>
                             </div>
                             <div class="content-wrapper">
@@ -129,7 +129,7 @@
                             </div></a>
                         </li>
                         <li class="portfolio-item">
-                            <a href="Construction-Equipment-Finance-Loan "><div class="img-wrapper">
+                            <a href="construction_equipment_finance.php "><div class="img-wrapper">
                                 <img class="center-block img-responsive" alt="car" src='./images/new_icons/comp-white.gif'>
                             </div>
                             <div class="content-wrapper">
@@ -138,7 +138,7 @@
                             </div></a>
                         </li>
                         <li class="portfolio-item">
-                            <a href="Term-Loan-Services"><div class="img-wrapper">
+                            <a href="term_loan_services.php"><div class="img-wrapper">
                                 <img class="center-block img-responsive" alt="" src='./images/new_icons/HassleFreePaperwork.gif'>
                             </div>
                             <div class="content-wrapper">
@@ -147,7 +147,7 @@
                             </div></a>
                         </li>
                         <li class="portfolio-item">
-                            <a href="LC-Bill-Discounting-Service"><div class="img-wrapper">
+                            <a href="lc_bill_discounting_service.php"><div class="img-wrapper">
                                 <img class="center-block img-responsive" alt="card" src='./images/new_icons/invoice.gif'>
                             </div>
                             <div class="content-wrapper">
@@ -156,7 +156,7 @@
                             </div></a>
                         </li>
                         <li class="portfolio-item">
-                           <a href="Project-Funding "> <div class="img-wrapper">
+                           <a href="project_funding.php"> <div class="img-wrapper">
                                 <img class="center-block img-responsive" alt="car" src='./images/new_icons/pf.gif'>
                             </div>
                             <div class="content-wrapper">
@@ -166,7 +166,7 @@
                             </div></a>
                         </li>
                         <li class="portfolio-item">
-                            <a href="Two-Wheeler-Loan"><div class="img-wrapper">
+                            <a href="two_wheeler_loan.php"><div class="img-wrapper">
                                 <img class="center-block img-responsive" alt="" src='./images/new_icons/2.gif'>
                             </div>
                             <div class="content-wrapper">
@@ -175,7 +175,7 @@
                             </div></a>
                         </li>
                         <li class="portfolio-item">
-                            <a href="Consumer-Durable-Loan"><div class="img-wrapper">
+                            <a href="cd_loan.php"><div class="img-wrapper">
                                 <img class="center-block img-responsive" alt="card" src='./images/new_icons/cdl.gif'>
                             </div>
                             <div class="content-wrapper">
@@ -184,7 +184,7 @@
                             </div></a>
                         </li>
                         <li class="portfolio-item">
-                            <a href="School-Loan"><div class="img-wrapper">
+                            <a href="school_loan.php"><div class="img-wrapper">
                                 <img class="center-block img-responsive" alt="car" src='./images/new_icons/sl.gif'>
                             </div>
                             <div class="content-wrapper">
@@ -194,7 +194,7 @@
                             </div></a>
                         </li>
                         <li class="portfolio-item">
-                            <a href="Educational-Loan"><div class="img-wrapper">
+                            <a href="education_loan.php"><div class="img-wrapper">
                                 <img class="center-block img-responsive" alt="car" src='./images/new_icons/education-dribbble.gif'>
                             </div>
                             <div class="content-wrapper">
@@ -204,7 +204,7 @@
                             </div></a>
                         </li>
                         <li class="portfolio-item">
-                            <a href="Invoice-Funding-Loan"><div class="img-wrapper">
+                            <a href="invoice_funding.php"><div class="img-wrapper">
                                 <img class="center-block img-responsive" alt="car" src='./images/new_icons/invoice.gif'>
                             </div>
                             <div class="content-wrapper">

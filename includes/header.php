@@ -6,7 +6,7 @@
           <ul class="top-left-menu">
             <li>
               <img class="topbar-icon" src="./images/topbar-phone.jpg" alt="phone">
-              <span><a href="telto:+919513040055" style="color:#2e66c1">+91 95130 40055</a></span>
+              <span><a href="tel:+919513040055" style="color:#2e66c1">+91 95130 40055</a></span>
             </li>
             <!-- <li>
               <img class="topbar-icon" src="./images/topbar-whatsapp.jpg" alt="phone">
@@ -57,13 +57,13 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li class="<?php echo ($_SERVER['PHP_SELF'] == "/index.php" ? "active" : ""); ?>"><a href="Home">Home </a></li>
-          <li class="<?php echo ($_SERVER['PHP_SELF'] == "/mindfin/about-us.php" ? "active" : ""); ?>"><a href="About-Mindfin">About Us</a></li>
-          <li class="<?php echo ($_SERVER['PHP_SELF'] == "/business_loan.php" ? "active" : ""); ?>"><a href="Business-Loan">Business Loans</a></li>
-          <li class="<?php echo ($_SERVER['PHP_SELF'] == "/mortgages.php" ? "active" : ""); ?>"><a href="Mortgage-Loan">Mortgages</a></li>
-          <li class="<?php echo ($_SERVER['PHP_SELF'] == "/personal_loan.php" ? "active" : ""); ?>"><a href="Personal-Loan">Personal Loans</a></li>
-          <li class="<?php echo ($_SERVER['PHP_SELF'] == "/mindfin-master/other_loan.php" ? "active" : ""); ?>"><a href="Other-Loans"> Other Loans</a></li>
-          <li class="<?php echo ($_SERVER['PHP_SELF'] == "/contact.php" ? "active" : ""); ?>"><a href="Contact-Mindfin">Contact Us</a></li>
+          <li class="<?php echo ($_SERVER['PHP_SELF'] == "/index.php" ? "active" : ""); ?>"><a href="index.php">Home </a></li>
+          <li class="<?php echo ($_SERVER['PHP_SELF'] == "/about-us.php" ? "active" : ""); ?>"><a href="about-us.php">About Us</a></li>
+          <li class="<?php echo ($_SERVER['PHP_SELF'] == "/business_loan.php" ? "active" : ""); ?>"><a href="business_loan.php">Business Loans</a></li>
+          <li class="<?php echo ($_SERVER['PHP_SELF'] == "/mortgages.php" ? "active" : ""); ?>"><a href="mortgages.php">Mortgages</a></li>
+          <li class="<?php echo ($_SERVER['PHP_SELF'] == "/personal_loan.php" ? "active" : ""); ?>"><a href="personal_loan.php">Personal Loans</a></li>
+          <li class="<?php echo ($_SERVER['PHP_SELF'] == "/other_loan.php" ? "active" : ""); ?>"><a href="other_loan.php"> Other Loans</a></li>
+          <li class="<?php echo ($_SERVER['PHP_SELF'] == "/contact.php" ? "active" : ""); ?>"><a href="contact.php">Contact Us</a></li>
           <li class="apply-item "><a class="btn btn-default apply-btn" href="register" role="button">Apply Now</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
@@ -81,7 +81,7 @@
   </a>
 </div>
 <div class="news-letter-wrapper4">
-  <a title="Call us" href="tel:919513040055" class="whatsapplink hideweb" >
+  <a title="Call us" href="tel:+919513040055" class="whatsapplink hideweb" >
     <img class="topbar-icon1 " src="./images/call.png" alt="phone">
   </a>
 </div>

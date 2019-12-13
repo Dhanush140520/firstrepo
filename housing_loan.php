@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php include_once "includes/headfiles.php"; ?>
+
 <head>
-  <title>Home Loan -MindFin</title>
-  <meta name="description" content=">Mindfin A home loan is a secured loan that helps you buy your dream home. It can be opted for purchasing a new house for a family, a commercial property, home extension or renovation. Home loan allows you to borrow greater sums and for longer tenure depending on your age, income, credit score and other credentials. Any salaried or self employed individual with regular income can apply for the same. Here the home is accounted as a collateral against the loan amount.">
-  <meta name="keywords" content="MIND FIN SER,mindfin,Financial Services in Bengaluru,Financial Services Companies in Bengaluru
+    <title>Home Loan -MindFin</title>
+    <meta name="description" content=">Mindfin A home loan is a secured loan that helps you buy your dream home. It can be opted for purchasing a new house for a family, a commercial property, home extension or renovation. Home loan allows you to borrow greater sums and for longer tenure depending on your age, income, credit score and other credentials. Any salaried or self employed individual with regular income can apply for the same. Here the home is accounted as a collateral against the loan amount.">
+    <meta name="keywords" content="MIND FIN SER,mindfin,Financial Services in Bengaluru,Financial Services Companies in Bengaluru
   Financial Services Companies,Investment Management,Mortgage loan in Bengaluru,Mortgage Calculator,Mortgage
   Mortgage Payment Calculator,Mortgage Rates,Loans,Payday Loans,Quicken Loans,Personal Loans,Personal Loans in Bengaluru,
   Finance,Financial Planning,what is financial services,financial products and services,finance and insurance industry,
@@ -17,6 +18,7 @@
   SME Loans, SME loans in Bengaluru,SME lonas in Karnataka, SME loans in India, Trust Funding,Educational Trust funding,
   School and Colleges Funding, Accessories funding, Infrastructure Funding ">
 </head>
+
 <body>
     <?php include_once "includes/header.php"; ?>
     <section class="secondary-banner home-loan-banner">
@@ -32,8 +34,8 @@
             <div class="row">
                 <div class="col-sm-12">
                     <ul>
-                        <li><a href="Home">Home</a></li>
-                        <li><a href="Other-Loans">Loans</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="other_loan.php">Loans</a></li>
                         <li><a href="#">Home Loans</a></li>
                     </ul>
                 </div>
@@ -138,15 +140,15 @@
                 <div class="row">
                     <div class="col-sm-3">
                         <h6 class="sub-head-primary" style="font-size: 20px;"><strong>Repayment
-</strong></h6>
+                            </strong></h6>
                         <p></p>
                     </div>
                     <div class="col-sm-9">
                         <p>The loan is generally repaid by equated monthly installments, using post-dated cheques. Banks usually ask for 12, 24 or 36 PDCs, after which you need to repeat the process until you have repaid the loan. Some banks may also insist on a cheque for an amount equivalent to the loan outstanding at the end of PDC period to ensure timely replenishment of PDCs for the next 12, 24 or 36 months as the case may be.
-<br>In case your installments are to be deducted against your salary, you need a letter from your employer accepting this arrangement and directly remitting the amount to the bank every month. This is possible only if your organization has an arrangement with the bank for all employees.
-<br>Some banks allow you to give standing instructions to the bank where you have your savings/current account to deduct money each month crediting your home loan account.
-<br>Some banks allow the monthly installments to be paid by convenient ECS facility.
-Another possible mode of payment is by cash or demand draft (not all banks offer this). You can deposit the EMI every month at the bank’s office.</p>
+                            <br>In case your installments are to be deducted against your salary, you need a letter from your employer accepting this arrangement and directly remitting the amount to the bank every month. This is possible only if your organization has an arrangement with the bank for all employees.
+                            <br>Some banks allow you to give standing instructions to the bank where you have your savings/current account to deduct money each month crediting your home loan account.
+                            <br>Some banks allow the monthly installments to be paid by convenient ECS facility.
+                            Another possible mode of payment is by cash or demand draft (not all banks offer this). You can deposit the EMI every month at the bank’s office.</p>
                         <br>
                     </div>
                 </div>
@@ -193,38 +195,38 @@ Another possible mode of payment is by cash or demand draft (not all banks offer
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/slick.min.js"></script>
     <script type="text/javascript">
-    $(document).ready(function() {
-      //Disable full page
-      $("body").on("contextmenu", function(e) {
-        return false;
-      });
+        $(document).ready(function() {
+            //Disable full page
+            $("body").on("contextmenu", function(e) {
+                return false;
+            });
 
-      //Disable full page
-      $('body').bind('cut copy paste', function(e) {
-        e.preventDefault();
-      });
+            //Disable full page
+            $('body').bind('cut copy paste', function(e) {
+                e.preventDefault();
+            });
 
-      //Disable cut copy paste
-      $('body').bind('cut copy paste', function(e) {
-        e.preventDefault();
-      });
-      //Disable ctrl+shift+i, ctrl+shift+j, ctrl+u
-      document.onkeydown = function(e) {
-        if (event.keyCode == 123) {
-          return false;
-        }
-        if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
-          return false;
-        }
-        if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
-          return false;
-        }
-        if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
-          return false;
-        }
-      }
-    });
-  </script>
+            //Disable cut copy paste
+            $('body').bind('cut copy paste', function(e) {
+                e.preventDefault();
+            });
+            //Disable ctrl+shift+i, ctrl+shift+j, ctrl+u
+            document.onkeydown = function(e) {
+                if (event.keyCode == 123) {
+                    return false;
+                }
+                if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+                    return false;
+                }
+                if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+                    return false;
+                }
+                if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+                    return false;
+                }
+            }
+        });
+    </script>
 </body>
 
 </html>

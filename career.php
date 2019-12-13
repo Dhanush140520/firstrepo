@@ -6,7 +6,7 @@
 	<title>Career - MindFin</title>
 	<meta name="description" content="MIndfin Career ">
 	<meta name="keywords" content="">
-	<link href="https://mindfin.co.in/Career" hreflang="en-in" rel="alternate">
+	<link href="https://mindfin.co.in/career.php" hreflang="en-in" rel="alternate">
 </head>
 
 <body>
@@ -16,7 +16,7 @@
 			<div class="row">
 				<div class="col-sm-12">
 					<ul>
-						<li><a href="Home">Home</a></li>
+						<li><a href="index.php">Home</a></li>
 						<li><a href="#">Career</a></li>
 					</ul>
 				</div>
@@ -216,38 +216,38 @@
 	<script src="assets/js/jquery.validate.min.js" type="text/javascript"></script>
 	<script src="dist/emotion-ratings.js"></script>
 	<script type="text/javascript">
-    $(document).ready(function() {
-      //Disable full page
-      $("body").on("contextmenu", function(e) {
-        return false;
-      });
+		$(document).ready(function() {
+			//Disable full page
+			$("body").on("contextmenu", function(e) {
+				return false;
+			});
 
-      //Disable full page
-      $('body').bind('cut copy paste', function(e) {
-        e.preventDefault();
-      });
+			//Disable full page
+			$('body').bind('cut copy paste', function(e) {
+				e.preventDefault();
+			});
 
-      //Disable cut copy paste
-      $('body').bind('cut copy paste', function(e) {
-        e.preventDefault();
-      });
-      //Disable ctrl+shift+i, ctrl+shift+j, ctrl+u
-      document.onkeydown = function(e) {
-        if (event.keyCode == 123) {
-          return false;
-        }
-        if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
-          return false;
-        }
-        if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
-          return false;
-        }
-        if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
-          return false;
-        }
-      }
-    });
-  </script>
+			//Disable cut copy paste
+			$('body').bind('cut copy paste', function(e) {
+				e.preventDefault();
+			});
+			//Disable ctrl+shift+i, ctrl+shift+j, ctrl+u
+			document.onkeydown = function(e) {
+				if (event.keyCode == 123) {
+					return false;
+				}
+				if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+					return false;
+				}
+				if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+					return false;
+				}
+				if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+					return false;
+				}
+			}
+		});
+	</script>
 </body>
 
 </html>

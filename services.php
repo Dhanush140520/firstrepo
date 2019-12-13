@@ -27,12 +27,12 @@
                 <h1>Our Main Loan<span> Services</span></h1> 
             </div> 
             <ul class="services-list">
-                <li><a href="Personal-Loan">Personal Loan</a></li>
-                <li><a href="Business-Loan">Business Loan</a></li>
-                <li><a href="Home-Loan">Home Loan</a></li>
-                <li><a href="Educational-Loan">Education Loan</a></li>
-                <li><a href="Auto-Loan">Auto Loan</a></li>
-                <li><a href="Commercial-Vehicle-Finance-Loan">Commercial Vehicles Loan</a></li>
+                <li><a href="personal_loan.php">Personal Loan</a></li>
+                <li><a href="business_loan.php">Business Loan</a></li>
+                <li><a href="housing_loan.php">Home Loan</a></li>
+                <li><a href="educational_loan.php">Education Loan</a></li>
+                <li><a href="auto_loan.php">Auto Loan</a></li>
+                <li><a href="commercial_vehicle_finance.php">Commercial Vehicles Loan</a></li>
             </ul>     
         </div>
     </section>
@@ -41,7 +41,7 @@
             <div class="row">
                 <div class="col-sm-12">
                     <ul>
-                        <li><a href="Home">Home</a></li>
+                        <li><a href="index.php">Home</a></li>
                         <li><a href="#">Services</a></li>
                     </ul>
                 </div>

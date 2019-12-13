@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php include_once "includes/headfiles.php"; ?>
+
 <head>
-  <title>Invoice Funding - MindFin</title>
-  <meta name="description" content="Mindfin Invoice financing is a common financing option for businesses that get paid long after they deliver their goods or services.">
-  <meta name="keywords" content="MIND FIN SER,mindfin,Financial Services in Bengaluru,Financial Services Companies in Bengaluru
+    <title>Invoice Funding - MindFin</title>
+    <meta name="description" content="Mindfin Invoice financing is a common financing option for businesses that get paid long after they deliver their goods or services.">
+    <meta name="keywords" content="MIND FIN SER,mindfin,Financial Services in Bengaluru,Financial Services Companies in Bengaluru
   Financial Services Companies,Investment Management,Mortgage loan in Bengaluru,Mortgage Calculator,Mortgage
   Mortgage Payment Calculator,Mortgage Rates,Loans,Payday Loans,Quicken Loans,Personal Loans,Personal Loans in Bengaluru,
   Finance,Financial Planning,what is financial services,financial products and services,finance and insurance industry,
@@ -17,6 +18,7 @@
   SME Loans, SME loans in Bengaluru,SME lonas in Karnataka, SME loans in India, Trust Funding,Educational Trust funding,
   School and Colleges Funding, Accessories funding, Infrastructure Funding ">
 </head>
+
 <body>
     <?php include_once "includes/header.php"; ?>
     <section class="secondary-banner bill-discount">
@@ -32,8 +34,8 @@
             <div class="row">
                 <div class="col-sm-12">
                     <ul>
-                        <li><a href="Home">Home</a></li>
-                        <li><a href="Other-Loans">Loans</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="other_loan.php">Loans</a></li>
                         <li><a href="#">Invoice Funding</a></li>
                     </ul>
                 </div>
@@ -208,38 +210,38 @@
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/slick.min.js"></script>
     <script type="text/javascript">
-    $(document).ready(function() {
-      //Disable full page
-      $("body").on("contextmenu", function(e) {
-        return false;
-      });
+        $(document).ready(function() {
+            //Disable full page
+            $("body").on("contextmenu", function(e) {
+                return false;
+            });
 
-      //Disable full page
-      $('body').bind('cut copy paste', function(e) {
-        e.preventDefault();
-      });
+            //Disable full page
+            $('body').bind('cut copy paste', function(e) {
+                e.preventDefault();
+            });
 
-      //Disable cut copy paste
-      $('body').bind('cut copy paste', function(e) {
-        e.preventDefault();
-      });
-      //Disable ctrl+shift+i, ctrl+shift+j, ctrl+u
-      document.onkeydown = function(e) {
-        if (event.keyCode == 123) {
-          return false;
-        }
-        if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
-          return false;
-        }
-        if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
-          return false;
-        }
-        if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
-          return false;
-        }
-      }
-    });
-  </script>
+            //Disable cut copy paste
+            $('body').bind('cut copy paste', function(e) {
+                e.preventDefault();
+            });
+            //Disable ctrl+shift+i, ctrl+shift+j, ctrl+u
+            document.onkeydown = function(e) {
+                if (event.keyCode == 123) {
+                    return false;
+                }
+                if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+                    return false;
+                }
+                if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+                    return false;
+                }
+                if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+                    return false;
+                }
+            }
+        });
+    </script>
 </body>
 
 </html>

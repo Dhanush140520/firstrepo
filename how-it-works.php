@@ -56,7 +56,7 @@
             <div class="row">
                 <div class="col-sm-12">
                     <ul>
-                        <li><a href="Home">Home</a></li>
+                        <li><a href="index.php">Home</a></li>
                         <li><a href="#">How it Works</a></li>
                     </ul>
                 </div>
