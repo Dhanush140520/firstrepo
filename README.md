@@ -1,1 +1,0 @@
-# mindfin-website
