@@ -69,11 +69,26 @@
 			return $list;
 		}
 		
-		function InsertCustomerForm($name,$cemail,$pemail,$dob,$gender,$mobile,$altmobile,$address,$emptype,$cname,$designation,$salary,$loan_amount,$loanpurpose,$applieddate){
+		// function InsertCustomerForm($name,$cemail,$pemail,$dob,$gender,$mobile,$altmobile,$address,$emptype,$cname,$designation,$salary,$loan_amount,$loanpurpose,$applieddate){
+		// 	$con = mysqli_connect('localhost', 'root', 'mindfin@098','mindfin');
+		// 	$list = array();
+		//     $sql="INSERT INTO `customer`(`name`, `mobile`,`email`, `dob`, `altmobile`, `address`, `gender`, `emptype`, `cname`, `designation`, `applytype`, `salary`, `status`,`displaystatus`,`applieddate`,`source`,`cemail`,`amount`)
+		// 			VALUES('$name', '$mobile','$pemail', '$dob', '$altmobile', '$address', '$gender', '$emptype', '$cname', '$designation', '$loanpurpose', '$salary', 'PENDING','PENDING', '$applieddate','WEBSITE','$cemail','$loan_amount')";
+		// 	$result=mysqli_query($con,$sql);
+		// 	if($result){
+		// 		$list = 1;
+		// 		} else {
+		// 		$list = 0;
+		// 	}
+		// 	mysqli_close($con);
+		// 	return $result;
+			
+		// }
+		function customeraddForm($applieddate, $name, $mobile, $email, $dob, $panno, $pincode, $loanpurpose, $cname, $loan_amount){
 			$con = mysqli_connect('localhost', 'root', 'mindfin@098','mindfin');
 			$list = array();
-		    $sql="INSERT INTO `customer`(`name`, `mobile`,`email`, `dob`, `altmobile`, `address`, `gender`, `emptype`, `cname`, `designation`, `applytype`, `salary`, `status`,`displaystatus`,`applieddate`,`source`,`cemail`,`amount`)
-					VALUES('$name', '$mobile','$pemail', '$dob', '$altmobile', '$address', '$gender', '$emptype', '$cname', '$designation', '$loanpurpose', '$salary', 'PENDING','PENDING', '$applieddate','WEBSITE','$cemail','$loan_amount')";
+		    $sql="INSERT INTO `customer`(`name`, `mobile`,`email`, `dob`, `pincode`, `applieddate`, `cname`, `applytype`, `status`, `displaystatus`, `amount`, `source`, `panno`)
+					VALUES('$name', '$mobile','$email', '$dob', '$pincode', '$applieddate', '$cname','$loanpurpose', 'PENDING', 'PENDING','$loan_amount','Website', '$panno')";
 			$result=mysqli_query($con,$sql);
 			if($result){
 				$list = 1;
@@ -265,4 +280,3 @@
 		// }
 		
 	}
-?>

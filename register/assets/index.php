@@ -123,12 +123,12 @@ include_once "library/form.php";
 												<div class="form-group">
 													<label for="emptype">Employee Type</label>
 													<select name="emptype" class="emptype form-control">
-														<option value="">--Select Employee Type--</option>
-														<option value="Salaried">Salaried</option>
-														<option value="Partnership">Partnership</option>
-														<option value="Self Employee">Self Employee</option>
-														<option value="Business">Business</option>
-														<option value="Director">Director</option>
+															<option value="">--Select Employee Type--</option>
+															<option value="Salaried">Salaried</option>
+															<option value="Partnership">Partnership</option>
+															<option value="Self Employee">Self Employee</option>
+															<option value="Business">Business</option>
+															<option value="Director">Director</option>
 													</select>
 												</div>
 											</div>
